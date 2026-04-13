@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格作業</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="0410作業.css">
+</head>
+<body>
+    <main>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ/viewform">
+            <section class="introduction block">
+                <p class="title">F2E02 表單練習</p>
+                <p class="fs146">僅供新尖兵 F2E02 表單切版練習作業</p>
+                <hr>
+                <p class="fs14">
+                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ%2Fviewform%3Ffbzx%3D6613298402826529351&dsh=S-634590758%3A1775928274772426&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_UgHoR-iwJeg59oh6uSub2T490yUuVWZRMTn7uFKoaXgiFvWM3RL41UKgX8CUGsS69cK5Xw9A" class="urlSetting">登入 Google</a>
+                    即可儲存進度。
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ/viewform" class="urlSetting">瞭解詳情</a>
+                </p>
+                <hr>
+                <p class="fs14 point">* 表示必填問題</p>
+            </section>
+            <section class="block">
+                <p>姓名
+                    <span class="point"> *</span>
+                </p>
+                <input type="text" name="userName" placeholder="您的回答" required class="underLine1">
+            </section>
+            <section class="block">
+                <p>信箱
+                    <span class="point"> *</span>
+                </p>
+                <input type="email" name="userEmail" placeholder="您的回答" required class="underLine1">
+            </section>
+            <section class="block">
+                <p>生日</p>
+                <p class="date">
+                    <small>日期</small>
+                </p>
+                <input type="date" name="birthday" class="underLine2">
+            </section>
+            <section class="block">
+                <p>想跟老師說悄悄話</p>
+                <input type="text" name="saySomething" placeholder="您的回答" class="underLine3">
+            </section>
+            <section class="block">
+                <p>喜歡的顏色</p>
+                <label>
+                    <input type="radio" name="favColor" id="yellow" class="fs146">
+                    黃
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="favColor" id="green" class="fs146">
+                    綠
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="favColor" id="red" class="fs146">
+                    紅
+                </label>
+            </section>
+            <section class="block">
+                <p>喜歡吃的飲食類型</p>
+                <label>
+                    <input type="checkbox" name="favFood" id="chinese" class="fs146">
+                    中式
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="favFood" id="italian" class="fs146">
+                    義式
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="favFood" id="japanese" class="fs146">
+                    日式
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="favFood" id="korean" class="fs146">
+                    韓式
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="favFood" id="american" class="fs146">
+                    美式
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="favFood" id="thai" class="fs146">
+                    泰式
+                </label>
+            </section>
+            <section class="block">
+                <p>最想去的國家 (使用 optgroup 將選項分為不同洲)</p>
+                <select name="favCountry" id="favCountry" class="fs146 favCountry">
+                    <option value="choose" selected disabled>選擇</option>
+                    <optgroup label="亞洲">
+                        <option value="jp">日本</option>
+                        <option value="kr">韓國</option>
+                        <option value="th">泰國</option>
+                    </optgroup>
+                    <optgroup label="歐洲">
+                        <option value="ge">德國</option>
+                        <option value="uk">英國</option>
+                    </optgroup>
+                    <optgroup label="北美洲">
+                        <option value="ca">加拿大</option>
+                        <option value="usa">美國</option>
+                    </optgroup>
+                </select>
+            </section>
+            <div class="btn">
+                <button type="submit" class="fs14 submitbtn">提交</button>
+                <button type="reset" class="fs14 resetbtn">清除表單</button>    
+            </div>
+            <div>
+                <p class="fs12">請勿利用 Google 表單送出密碼。</p>
+            </div>
+            <div class="center fs12">
+                <p>這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。</p>
+                <p>這份表單很可疑嗎？
+                    <a href="https://drive.google.com/abuse?id=AKkXjoydXWY0mgYIjdBkcdDZLucty17BSF7IBJtYLVLaa39SegSoJEHHs-07XbfRApdQoJAK6ILK0OitJ556aac:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ/viewform" class="report">報告</a>
+                </p>
+            </div>
+            <div class="googleForm"> 
+                    <img src="	https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" alt="Google">
+                    <a href="https://workspace.google.com/products/forms/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms">表單</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
